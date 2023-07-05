@@ -1,0 +1,61 @@
+/* .navbarRow {
+  display: flex;
+  justify-content: center;
+} */
+.leftNav {
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  list-style: none;
+}
+.leftNav img {
+  width: 2%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+img:hover {
+  transform: scale(1.2);
+  color: white;
+}
+.resume {
+  color: white;
+  font-size: large;
+  font-weight: 500;
+}
+li {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+li:hover {
+  transform: scale(1.2);
+  color: #00adb5;
+}
+
+.resume:hover {
+  transform: scale(1.2);
+  color: #00adb5;
+}
+
+.resumeDiv {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.resumeDiv button {
+  margin-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #00adb5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.resumeDiv button:hover {
+  background-color: #057d83;
+}

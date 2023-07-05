@@ -1,0 +1,147 @@
+.homeContainer {
+  /* background-color: #222831; */
+
+  min-height: 100vh;
+}
+
+.heading h1 {
+  color: white;
+  font-size: 3em;
+}
+
+.headingDiv {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 8%;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.waveImage {
+  margin-left: 2%;
+  width: 7%;
+}
+
+.italicLocationDiv p {
+  margin-top: 4%;
+  font-style: italic;
+  color: white;
+  font-size: medium;
+}
+
+.shortIntroDiv {
+  margin-top: 3%;
+  color: white;
+  font-weight: 600;
+  font-size: large;
+}
+
+.descriptionParagraph span {
+  color: #00adb5;
+  font-size: larger;
+  text-decoration: underline;
+}
+
+.lowerBodyDIv {
+  margin-top: 4%;
+  justify-content: space-around;
+  display: flex;
+}
+
+.workExperienceDiv {
+  padding: 2%;
+  border-radius: 10px;
+  /* text-align: center; */
+}
+.titleDiv {
+  background-color: white;
+  display: flex;
+  text-align: center;
+}
+
+.projectsDiv {
+  padding: 2%;
+  border-radius: 10px;
+  /* text-align: center; */
+}
+.lowerBodyDIv h3 {
+  color: #eeeeee;
+  font-size: 1.5em;
+}
+
+/* work */
+.workExpOne {
+  margin-top: 6%;
+}
+
+.workExperienceDiv div {
+  background-color: #222831;
+  border-radius: 8px;
+  padding: 2%;
+  margin-bottom: 6%;
+  width: max-content;
+}
+
+.workExperienceDiv span {
+  color: white;
+}
+
+.title {
+  color: #00adb5;
+}
+
+/* project */
+.projectOne {
+  margin-top: 6%;
+}
+.projectsDiv div {
+  border-radius: 8px;
+  padding: 2%;
+  margin-bottom: 6%;
+}
+
+.projectsDiv span {
+  color: white;
+}
+.ptitle {
+  color: #00adb5;
+}
+
+/* .projectOne {
+  display: block;
+  width: fit-content;
+} */
+.desc {
+  margin-top: 1%;
+  color: white;
+  font-weight: 500;
+}
+
+.titleLink {
+  display: flex;
+  /* width: fit-content; */
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  /* background-color: #00adb5; */
+}
+.link {
+  width: 5%;
+}
+
+.projectsDiv div {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.projectsDiv div:hover {
+  transform: scale(1.2);
+  background-color: #00adb5;
+}
+.projectsDiv div:hover .ptitle {
+  color: white;
+}
