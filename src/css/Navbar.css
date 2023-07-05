@@ -59,3 +59,13 @@ li:hover {
 .resumeDiv button:hover {
   background-color: #057d83;
 }
+
+@media (max-width: 600px) {
+  .leftNav {
+    gap: 4%;
+    margin-bottom: 3%;
+  }
+  .leftNav img {
+    width: 8%;
+  }
+}

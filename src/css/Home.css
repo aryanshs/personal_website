@@ -83,7 +83,6 @@
   border-radius: 8px;
   padding: 2%;
   margin-bottom: 6%;
-  width: max-content;
 }
 
 .workExperienceDiv span {
@@ -144,4 +143,23 @@
 }
 .projectsDiv div:hover .ptitle {
   color: white;
+}
+
+@media (max-width: 600px) {
+  .lowerBodyDIv {
+    display: flex;
+    flex-direction: column;
+  }
+  .waveImage {
+    width: 25%;
+  }
+  .heading h1 {
+    margin-bottom: 2%;
+  }
+  .headingDiv {
+    margin-bottom: 12%;
+  }
+  .shortIntroDiv {
+    margin-top: 10%;
+  }
 }

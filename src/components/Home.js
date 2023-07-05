@@ -41,7 +41,7 @@ export default function Home() {
               Software Engineer Intern <span>- WTW</span>
             </h4>
             <p className="desc">
-              Building full stack software using C#, .NET COre,<br></br>{" "}
+              Building full stack software using C#, .NET Core,<br></br>{" "}
               Angular, SQL Server, and Azure technologies.
             </p>
           </div>
